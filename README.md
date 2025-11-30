@@ -12,11 +12,12 @@ git clone https://github.com/Qmndrn/api1.git
 pip install -r requirements.txt
 ```
 3. Получение и использование API-ключа
-```
+
 Зарегистрируйтесь и получите API-ключ на сайте exchangerate-api.com., чтобы получить API-ключ:
 [[exchangerate-api.com]](https://www.exchangerate-api.com/)
-```
-далее в корне проекта создайте файл .env 
+
+4. Создание .env
+в корне проекта создайте файл .env 
 внутри файла:
  API_KEY = 'ваш_api_ключ'
 ```
@@ -24,6 +25,8 @@ pip install -r requirements.txt
 После установки зависимостей и создания файла .env запустите скрипт:
 ```
 python main.py
+```
+```
 -b, --base_currency — базовая валюта (по умолчанию RUB)
 
 -t, --target_rate — целевая валюта (по умолчанию USD)
