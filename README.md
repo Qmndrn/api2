@@ -26,6 +26,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+#Для изменения данных:
 ```
 -b, --base_currency — базовая валюта (по умолчанию RUB)
 
