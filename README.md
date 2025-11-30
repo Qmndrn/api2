@@ -14,7 +14,7 @@ pip install -r requirements.txt
 3. Получение и использование API-ключа
 
 Зарегистрируйтесь и получите API-ключ на сайте exchangerate-api.com., чтобы получить API-ключ:
-[[exchangerate-api.com]](https://www.exchangerate-api.com/)
+[exchangerate-api.com](https://www.exchangerate-api.com/)
 
 4. Создание .env
 в корне проекта создайте файл .env 
@@ -22,6 +22,7 @@ pip install -r requirements.txt
  API_KEY = 'ваш_api_ключ'
 
 ##Использование
+
 После установки зависимостей и создания файла .env запустите скрипт:
 ```
 python main.py
