@@ -24,7 +24,7 @@ def get_currencyvalue(base_currency):
     try:
         response = requests.get(f"https://v6.exchangerate-api.com/v6/{api_key}/latest/{base_currency}")
         response.raise_for_status()
-    except requests.HTTPError:
+    except requests.HTTPError as error:
         print("HTTPError")
         return None
     return response.json()
