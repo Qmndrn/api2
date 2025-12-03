@@ -20,7 +20,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 
-def get_currencyvl(base_currency):
+def get_currencyvalue(base_currency):
     try:
         response = requests.get(f"https://v6.exchangerate-api.com/v6/{api_key}/latest/{base_currency}")
         response.raise_for_status()
